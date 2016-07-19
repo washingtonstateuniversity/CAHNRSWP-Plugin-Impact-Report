@@ -1,0 +1,383 @@
+.cahnrs-impact-report {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.cahnrs-impact-report h1 {
+	font-size: 26px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 0 0 20px 0;
+	text-align: right;
+	text-transform: uppercase;
+	color: #981e32;
+}
+
+.cahnrs-impact-report h2 {
+	font-weight: normal;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 22px;
+	margin: 0;
+	padding: 0 0 20px 0;
+	color: #981e32;
+}
+
+.cahnrs-impact-report h3 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 20px 0;
+	color: #981e32;
+}
+.cahnrs-impact-report h4 {
+	color: #5e6a71;
+	font-size: 16px;
+	margin: 0;
+	padding: 0 0 10px 0;
+	text-transform: uppercase;
+}
+
+.cahnrs-impact-report .cir-page {
+	position: relative;
+}
+
+.cahnrs-impact-report .cir-page:before {
+	content:'';
+	position: absolute;
+	width: 1px;
+	display: block;
+	top: 0;
+	bottom: 0;
+	left: 275px;
+	background-color: #5e6a71;
+}
+
+.cahnrs-impact-report .cir-row:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.cahnrs-impact-report .cir-column {
+	padding-bottom: 12px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+
+.cahnrs-impact-report .cir-column section{
+	padding-bottom: 12px;
+}
+
+.cahnrs-impact-report .cir-body .cir-column.cir-column-one {
+	padding-left: 8px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.cahnrs-impact-report .cir-body .cir-column.cir-column-two {
+	padding-right: 8px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.cahnrs-impact-report .cir-column img {
+	background-position: center center;
+	background-size: cover;
+}
+
+.cahnrs-impact-report .cir-column.cir-column-one {
+	width: 275px;
+	float: left;
+	padding-right: 12px;
+}
+
+.cahnrs-impact-report .cir-column.cir-column-two {
+	margin-left: 275px;
+	padding-left: 12px;
+}
+
+.cahnrs-impact-report header.cir-row {
+	border-bottom: 1px solid #5e6a71
+}
+
+.cahnrs-impact-report header.cir-row .cir-column img {
+	height: 220px;
+	display: block;
+}
+
+.cahnrs-impact-report header.cir-row .cir-column-one img {
+	width: 100%;
+}
+
+.cahnrs-impact-report footer.cir-row {
+	position: relative;
+	background: #fff;
+	border-top: 1px solid #5e6a71;
+	margin: 0;
+	padding: 0;
+}
+
+/* -----------------------------------------------------*/
+
+.cahnrs-impact-report .cir-download {
+	text-align: right;
+	padding-bottom: 20px;
+}
+
+.cahnrs-impact-report .cir-download a {
+	display: inline-block;
+	padding: 6px 40px 6px 18px;
+	border: 1px solid #981e32;
+	text-transform: uppercase;
+	background-image: url(../images/pdf-icon.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	background-size: auto 100%;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+.cahnrs-impact-report .cir-page-one header.cir-row .cir-column.cir-column-two img {
+	width: 100%; 
+}
+
+.cahnrs-impact-report .cir-page-one footer.cir-row .cir-column.cir-column-one {
+	overflow: visible;
+	padding: 0;
+}
+
+.cahnrs-impact-report .cir-page-one footer.cir-row .cir-column.cir-column-one .cir-sidebar-img {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 12px;
+	display: block;
+}
+
+.cahnrs-impact-report .cir-page-one footer.cir-row .cir-column.cir-column-one .cir-sidebar-img img {
+	position: relative;
+	bottom: 12px;
+	width: 100%;
+	display: block;
+}
+
+/* -----------------------------------------------------*/
+
+
+
+.cahnrs-impact-report .cir-page-two header.cir-row .cir-column.cir-column-two img {
+	width: 49%;
+	float: left; 
+}
+
+.cahnrs-impact-report .cir-page-two header.cir-row .cir-column.cir-column-two img:first-child {
+	width: 49%;
+	margin-right: 2%;
+}
+
+.cahnrs-impact-report .cir-page-two footer.cir-row {
+	text-align: center;
+}
+
+.cahnrs-impact-report .cir-page-two footer.cir-row .cir-column {
+	padding-top: 12px;
+	padding-left: 20xp;
+	padding-right: 20px;
+	color: #555;
+}
+
+/* -------------------------------------- */
+#impact-report-archive h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+}
+#impact-report-archive .gray-darker-back a {
+	color: #fff;
+}
+#impact-report-archive article {
+	box-sizing: border-box;
+	float: left;
+	margin-bottom: 1em;
+	position: relative;
+	width: 33.3%;
+}
+#impact-report-archive article:nth-child(3n+1) {
+	border-right: 0.5rem solid transparent;
+}
+#impact-report-archive article:nth-child(3n+2) {
+	border-left: 0.25rem solid transparent;
+	border-right: 0.25rem solid transparent;
+}
+#impact-report-archive article:nth-child(3n+3) {
+	border-left: 0.5rem solid transparent;
+}
+#impact-report-archive figure.article-thumbnail {
+	float: none;
+	margin: 0;
+}
+#impact-report-archive figure.article-thumbnail img {
+	display: block;
+	width: 100%;
+}
+#impact-report-archive article > div {
+	bottom: 0;
+	max-height: 100%;
+	overflow-y: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 0;
+}
+#impact-report-archive article:hover > div {
+}
+#impact-report-archive article > div:before {
+	content: '';
+	height: 100%;
+	left: 0;
+	opacity: 0.85;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	-webkit-transition: opacity .2s linear;
+	-moz-transition:    opacity .2s linear;
+	-o-transition:      opacity .2s linear;
+	transition:         opacity .2s linear;
+	z-index: -1;
+}
+#impact-report-archive .topic-4-h > div:before,
+#impact-report-archive .topic-4-h > a:hover,
+#impact-report-archive .topic-4-h .active {
+	background-color: #009849;
+}
+#impact-report-archive .topic-agricultural-production > div:before,
+#impact-report-archive .topic-agricultural-production > a:hover,
+#impact-report-archive .topic-agricultural-production .active {
+	background: #826229;
+}
+#impact-report-archive .topic-communities-and-economic-development > div:before,
+#impact-report-archive .topic-communities-and-economic-development > a:hover,
+#impact-report-archive .topic-communities-and-economic-development .active {
+	background: #b67233;
+}
+#impact-report-archive .topic-family-and-home > div:before,
+#impact-report-archive .topic-family-and-home > a:hover,
+#impact-report-archive .topic-family-and-home .active {
+	background: #4f868e;
+}
+#impact-report-archive .topic-food-and-nutrition > div:before,
+#impact-report-archive .topic-food-and-nutrition > a:hover,
+#impact-report-archive .topic-food-and-nutrition .active {
+	background: #c69214;
+}
+#impact-report-archive .topic-gardening > div:before,
+#impact-report-archive .topic-gardening > a:hover,
+#impact-report-archive .topic-gardening .active {
+	background: #7b451d;
+}
+#impact-report-archive .topic-natural-resources > div:before,
+#impact-report-archive .topic-natural-resources > a:hover,
+#impact-report-archive .topic-natural-resources .active {
+	background: #8f7e35;
+}
+#impact-report-archive article:hover > div:before {
+	opacity: 1;
+}
+#impact-report-archive article header h3 {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 0;
+}
+#impact-report-archive article header h3 a {
+	display: block;
+	padding: 0.5rem 1rem;
+}
+#impact-report-archive article .article-summary {
+	display: none;
+	padding: 0 1rem;
+}
+#impact-report-archive article:hover .article-summary {
+	display: block;
+	padding-bottom: 1rem;
+}
+#impact-report-archive .more-button {
+	margin-top: 2rem;
+}
+
+#impact-report-archive .browse-terms {
+	padding: 0;
+	list-style: none;
+}
+#impact-report-archive .browse-terms.topics li {
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 7px;
+	padding: 0;
+}
+#impact-report-archive .browse-terms.topics li a {
+	display: block;
+	padding: 0.3rem 0.5rem;
+	text-align: center;
+	-webkit-transition: background-color .2s linear;
+	-moz-transition:    background-color .2s linear;
+	-o-transition:      background-color .2s linear;
+	transition:         background-color .2s linear;
+}
+#impact-report-archive .topic-4-h {
+	border-color: #009e60;
+	border-color: #009849;
+}
+#impact-report-archive .topic-agricultural-production {
+	border-color: #826229;
+}
+#impact-report-archive .topic-communities-and-economic-development {
+	border-color: #b67233;
+}
+#impact-report-archive .topic-family-and-home {
+	border-color: #4f868e;
+}
+#impact-report-archive .topic-food-and-nutrition {
+	border-color: #c69214;
+}
+#impact-report-archive .topic-gardening {
+	border-color: #7b451d;
+}
+#impact-report-archive .topic-natural-resources {
+	border-color: #8f7e35;
+}
+#impact-report-archive .locations-container {
+	box-sizing: border-box;
+	height: 150px; height: 220px;
+	overflow: auto;
+	position: relative;
+}
+#impact-report-archive .browse-terms.locations {
+	background: #5e6a71;
+}
+#impact-report-archive .browse-terms.locations li {
+	padding: 0;
+}
+#impact-report-archive .browse-terms.locations li a {
+	display: block;
+	padding: 0.3rem 0.5rem;
+}
+#impact-report-archive .browse-terms.locations li a:hover {
+	background: #464e54;
+}
+#impact-report-archive .browse-terms.locations li a.active {
+	background: #981e32;
+}
+@media only screen and (max-width:480px) {
+	#impact-report-archive article:nth-child(3n+1),
+	#impact-report-archive article:nth-child(3n+2),
+	#impact-report-archive article:nth-child(3n+3) {
+		border: none;
+		float: none;
+		position: relative;
+		width: 100%;
+	}
+}
